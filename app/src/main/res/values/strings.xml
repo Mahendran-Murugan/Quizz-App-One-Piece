@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizzyDay</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="welcome">Welcome</string>
+    <string name="e_g_mahi">Name</string>
+    <string name="submit">Submit</string>
+    <string name="usr_txtforEntry">Enter your name to begin quiz 🤔</string>
+    <string name="luffy_image">Luffy Image</string>
+    <string name="result">Result</string>
+</resources>

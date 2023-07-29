@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuestionActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            tools:text="What is the name of this Character?" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:src="@drawable/ic_uffy"
+            android:contentDescription="@string/luffy_image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp">
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="0dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:indeterminateTint="@color/rose"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:max="4"
+                android:minHeight="50dp"
+                android:progress="1"
+                android:indeterminate="false"/>
+            <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/4"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_optionOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option 1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/option_border_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"
+           />
+        <TextView
+            android:id="@+id/tv_optionTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option 2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/option_border_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/tv_optionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option 3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/option_border_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/tv_optionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Option 4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/option_border_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

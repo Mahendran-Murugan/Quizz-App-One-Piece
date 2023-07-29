@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/ic_bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/result"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="110dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_winner_img_re"
+        android:layout_gravity="center"
+        android:contentDescription="WinnerImage"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!!"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_usr_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Mahendran"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="You scored 4 out of 4"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/rose"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
